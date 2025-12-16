@@ -1,0 +1,61 @@
+
+#matrix {
+	margin: 5px;
+	padding: 0px;
+	border: 2px solid #1B262C;
+	background-color: #0F4C75;	
+	z-index: 4;
+}
+
+.cell {
+	float: left;
+	margin: 0px;
+	padding: 0px;
+	border: 1px solid #1B262C;
+	text-align: center;
+	background-color: #0F4C75;	
+}
+
+.cell_step {
+	float: left;
+	margin: 0px;
+	padding: 0px;
+	border: 1px solid #1B262C;
+	text-align: center;
+	background-color: #3282B8;	
+}
+
+.button_game {
+	float: left;
+	margin: 5px 5px 0px 5px;
+	padding: 0px;
+	border: 2px solid #1B262C;
+	text-align: center;
+	background-color: #3282B8;	
+}
+
+#progress_bar_game {
+	float: left;
+	margin: 5px 5px 0px 5px;
+	padding: 0px;
+	border: 2px solid #1B262C;
+	text-align: center;
+	background-color: #3282B8;	
+}
+
+
+#baner { 
+	visibility: hidden;
+	position: relative; 
+	border: 2px solid #1B262C;
+	box-shadow: 0.4em 0.4em 5px #7a7a7a94;
+	text-align: center;
+	padding-top: 10px;
+	background-color: #a6c6db;	
+	top: -300px;
+	left: 190px;
+	z-index: 50;
+}
+
+a { text-decoration: none; color: #1B262C;}
+a:visited { text-decoration: none; color: #1B262C;}
